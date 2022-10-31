@@ -1,0 +1,179 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    text-align: none;
+  }
+  /* body {
+    background: #333;
+    color: #f2f2f2;
+    height: 500px;
+    min-width: 100%;
+  } */
+  
+  .container {
+    
+    
+    color: white;
+    
+    margin-top: 10vmin;
+    
+    margin-left: 5vmin;
+  
+    
+   
+  }
+  
+  .card-content {
+    font-weight: normal;
+    font-size: 10px;
+    
+    
+    left: 3vmin;
+    position: relative;
+    top: -20vmax;
+
+  }
+  .card-content p{
+    font-weight: 700;
+    font-size: 22px;
+
+  }
+  
+  .button{
+    font-size: 15px;
+    size: 20px;
+    padding: 10px 15px;
+    left: 3vmin;
+    border-radius: 10px;
+    border: none;
+    margin-top: 12em;
+    cursor: pointer;
+
+  }
+  .cards-container {
+    
+    display: flex;
+    padding: 1rem;
+    overflow-x: auto;
+    
+   
+    
+    
+  }
+  .cards-container::-webkit-scrollbar {
+      display: none;
+    } 
+  .card {
+    
+    flex: 1 0 600px;
+    
+    
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    
+   
+  }
+  .card img {
+    width: 1250px;
+    height: 350px;
+    
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 625px) {
+    .container {
+      width: 100%;
+      padding-left: 0px;
+    }
+    
+    .cards-container {
+      padding: .5rem;
+    }
+    .button{
+      font-size: 15px;
+      size: 20px;
+      padding: 10px 15px;
+      left: 3vmin;
+      border-radius: 10px;
+      border: none;
+      margin-top: 12em;
+      cursor: pointer;
+  
+    }
+    .card {
+      margin: .5rem;
+    }
+  }
+
+  .filter_line{
+    display: flex;
+    padding-left: 4vmin;
+    margin-top: -250px;
+    
+    
+    
+    overflow: hidden;
+  
+  }
+  .card3 {
+    height: 100%;
+   
+    display: flex;
+    
+    flex-direction: column;
+    max-width: 24rem;
+    position: relative;
+  
+  }
+  .filter_line button{
+    padding: 5px 34px;
+   
+    margin-left: 5px;
+    border-radius: 18px;
+    border: none;
+    height: 40px;
+  }
+  .line{
+    height:37px;
+    margin-left: 22px;
+    margin-top: 2px;
+    width:2px;
+    background-color: grey;
+  }
+  /* .content3 {
+    
+    
+
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+  .controls3 {
+    display: flex;
+    justify-content: end;
+    margin-bottom: -2rem;
+  }
+  .controls3 button {
+    
+    height: 30px;
+    border: 1;
+    border-color: rgb(118, 115, 115);
+    background-color: #eff1f1;
+    color: rgb(79, 72, 72);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+  
+.controls3 button:nth-child(1) {
+  margin-right: 10px;
+} */
+
+  

@@ -1,0 +1,102 @@
+.logo{
+
+    float: left;
+    margin-left: 10vmin;
+    margin-top: 3vmin;
+    height: 5vmin;
+}
+.Header-right{
+    font-size: 18px;
+    margin-top: 4vmin;
+    color: rgb(32, 27, 27);
+    float: right;
+    margin-right: 40vmin;
+    border: none;
+    background-color: white;
+
+
+}
+
+.globe{
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: -24vmin;
+    float: right;
+    color: rgb(38, 36, 36);
+    background-color: white;
+    
+    
+
+}
+.profile{
+    border-color: grey;
+    
+    
+    
+    border-radius: 25px;
+    font-size: 22px;
+    height: 45px;
+    width: 100px;
+    margin-top: 16px;
+    margin-right: -40vmin;
+    float: right;
+    color: rgb(18, 1, 1);
+    background-color: white;
+    
+}
+.profile:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 5px 5px 0 rgba(0,0,0,0.19);
+  }
+.Header-right:hover {
+    border-radius: 20px;
+    
+   
+    background-color: #e3dede;
+  }
+
+  .globe:hover {
+    border-radius: 20px;
+   
+    background-color: #e3dede;
+  }
+  .line1{
+    width: 100%;
+    margin-top: 45px;
+    height: 47px;
+    border-bottom: 1px solid rgb(194, 191, 191);
+    position: absolute;
+    }
+
+
+
+
+
+/* 
+
+.btn-group button {
+    font-size: 20px;
+    margin-top: 3vmin;
+    margin-right: 30vmin;
+
+    color: rgb(34, 33, 33); 
+    border: none;
+    cursor: pointer; 
+    float: right;
+  }
+  
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  
+  .btn-group button:hover {
+    background-color: #b7beb8;
+  } */
